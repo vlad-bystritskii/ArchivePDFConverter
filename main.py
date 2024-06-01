@@ -1,6 +1,6 @@
 from Helpers.ArchiveService import ArchiveService
-from Helpers.FileManager import FileManager
-from Extensions.string_clean_path import clean_path
+from Helpers.FileManager import create_repository_map
+from Extensions.StringCleanPath import clean_path
 import os
 import json
 
@@ -29,7 +29,7 @@ def extract_archives(repository_map, base_path, extract_to):
 
 if __name__ == "__main__":
     path_to_folder = clean_path(input("Enter the path to the folder: "))
-    repository_map = FileManager.create_repository_map(path_to_folder)
+    repository_map = create_repository_map(path_to_folder)
     
     extract_to_folder = os.path.join(clean_path(path_to_folder), "Temporary")
     if not os.path.exists(extract_to_folder):
