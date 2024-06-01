@@ -1,0 +1,11 @@
+comicapi==3.2.0
+importlib_metadata==7.1.0
+natsort==8.4.0
+pillow==10.3.0
+pycountry==22.3.5
+rapidfuzz==3.9.3
+setuptools==70.0.0
+text2digits==0.1.0
+unrar==0.4
+wordninja==2.0.0
+zipp==3.19.1
