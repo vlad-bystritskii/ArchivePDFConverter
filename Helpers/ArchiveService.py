@@ -4,6 +4,8 @@ import comicapi
 import rarfile
 
 class ArchiveService:
+    supported_types = {'.zip', '.rar', '.cba'}
+
     def extract(self, archive_path, extract_to):
         if not os.path.exists(extract_to):
             os.makedirs(extract_to)
