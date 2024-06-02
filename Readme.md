@@ -4,21 +4,23 @@
 This project provides a comprehensive tool for extracting archives and creating PDFs from image files.
 The primary goal is to support multiple archive formats, clean the extracted files, and compile images into PDFs while adding metadata and ensuring file size constraints.
 
+## Features
+
+- Convert multiple image formats (e.g., JPG, PNG, BMP) to a single PDF file.
+- Automatically handle image scaling and positioning.
+- Easy-to-use command line interface.
+
+
 ## Supported Formats
 
 - Archive Formats:
   - ZIP (.zip)
   - RAR (.rar)
   - Comic Book Archive (.cba)
+
 - Image Formats for PDF:
   - PNG (.png)
   - JPEG (.jpg, .jpeg)
-
-## Features
-
-- Convert multiple image formats (e.g., JPG, PNG, BMP) to a single PDF file.
-- Automatically handle image scaling and positioning.
-- Easy-to-use command line interface.
 
 ## Requirements
 
