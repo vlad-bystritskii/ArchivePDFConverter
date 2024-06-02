@@ -1,6 +1,6 @@
 # Archive to PDF Converter
 
-# Overview
+## Overview
 This project provides a comprehensive tool for extracting archives and creating PDFs from image files.
 The primary goal is to support multiple archive formats, clean the extracted files, and compile images into PDFs while adding metadata and ensuring file size constraints.
 
