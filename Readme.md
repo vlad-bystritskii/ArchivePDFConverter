@@ -33,8 +33,8 @@ To set up the environment and install the required dependencies, follow these st
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/vlad-bystritskii/mangaPDFConverter.git
-    cd mangaPDFConverter
+    git clone https://github.com/vlad-bystritskii/ArchivePDFConverter.git
+    cd ArchivePDFConverter
     ```
 
 2. Prepare the virtual environment and install dependencies using `make`:
