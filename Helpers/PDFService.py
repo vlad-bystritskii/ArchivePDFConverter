@@ -6,7 +6,7 @@ from Extensions.StringCleanPath import clean_path
 
 class PDFService:
     image_supported_formats = {'.png', '.jpg', '.jpeg'}
-    max_pdf_size = 195 * 1024 * 1024  # 195 MB
+    max_pdf_size = 195 * 1024 * 1024
 
     def __init__(self, base_path: str, author: str):
         self.base_path = base_path
@@ -21,7 +21,6 @@ class PDFService:
                   if any(element.path.lower().endswith(ext) for ext in PDFService.image_supported_formats)]
         
         if images:
-            # Сортируем изображения по имени
             images.sort()
 
             relative_path = clean_path(folder.path)
