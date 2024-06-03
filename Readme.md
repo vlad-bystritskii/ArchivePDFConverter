@@ -42,6 +42,13 @@ To set up the environment and install the required dependencies, follow these st
     make prepare-env
     ```
 
+## Testing
+
+To start tests run the following command:
+```bash
+make tests
+```
+
 ## Usage
 
 To convert images to PDF, place your images in the `images` directory and run the following command:
