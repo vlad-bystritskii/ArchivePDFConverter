@@ -15,4 +15,7 @@ install: $(VENV)/bin/activate
 # Команда для подготовки окружения
 prepare-env: install
 
-.PHONY: prepare-env install
+tests:
+	PYTHONPATH=./ pytest tests
+
+.PHONY: prepare-env install tests
